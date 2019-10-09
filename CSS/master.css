@@ -1,0 +1,179 @@
+body{
+  width: 80%;
+  margin: auto;
+}
+
+#chap01 {
+  padding-top : 1.5em;
+}
+
+
+section  {
+  text-align: justify;
+}
+
+@media screen and (min-width : 480px) {
+  section {
+    column-count: 1;
+      column-gap: 3em;
+  }
+  h1 {
+    padding-bottom: 1em;
+    font-size: 4em;
+    text-align: left;
+    margin-left : -0.1em;
+}
+}
+
+@media screen and (min-width : 960px) {
+  section {
+    column-count: 2;
+}
+  .section14 {
+      column-count: 1;
+      margin-bottom : 10em;
+
+  }
+  h1 {
+    padding-bottom: 2em;
+    font-size: 4em;
+    text-align: left;
+    margin-left : -0.1em;
+}
+
+@media screen and (min-width : 1000px) {
+  .section14 {
+      column-count: 1;
+      margin-bottom : 5em;
+      padding-left:30em;
+      padding-bottom: 8em;
+ }
+
+ h1 {
+   padding-bottom: 3em;
+   font-size: 6em;
+   text-align: left;
+   margin-left : -0.1em;
+
+}
+}
+
+@media screen and (min-width : 1100px) {
+  section {
+    column-count: 3;
+  }
+}
+
+@media screen and (min-width : 1150px) {
+  .section14 {
+    column-count: 2;
+    margin-bottom : 5em;
+    padding-left:30em;
+    padding-bottom: 8em;
+  }
+}
+
+
+.section01 {
+margin-bottom: 2em;
+
+}
+
+#ex01 {
+  font-size: 2em;
+  text-align: left;
+  margin-bottom:2em;
+}
+
+.center {
+  text-align: center;
+  margin: 7em;
+  font-size: -2em;
+  max-width: 900px;
+  margin : 0 auto;
+  margin-top: 18em;
+  margin-bottom: 18em;
+
+}
+
+.center2 {
+  margin-bottom: 5em;
+  text-align: center;
+
+  max-width: 960px;
+  margin : 0 auto;
+  margin-top: 18em;
+
+
+}
+
+.center3 {
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-shrink: 0;
+
+  max-width: 960px;
+  margin : 0 auto;
+  margin-top: 5em;
+  margin-bottom: 10em;
+}
+
+
+#ex02 {
+  font-size: 2em;
+  text-align: left;
+  padding-bottom: 1em;
+}
+
+.section03{
+  text-align: left;
+  column-count: 1;
+  font-size: 12px;
+}
+
+.reduced-size {
+  max-width: 400px;
+  text-align: left;
+  font-size: 0.8em;
+}
+
+.section04 {
+  text-align: left;
+  column-count: 1;
+  font-size: 12px;
+}
+
+.section05,
+.section06,
+.section07,
+.section08,
+.section09,
+.section10,
+.section11,
+.section12,
+.section13 {
+margin-bottom: 7em;
+}
+
+
+
+#ex04{
+  font-size: 2em;
+  text-align: left;
+  margin-bottom: 1.5em;
+
+}
+.right{
+  font-size: 12px;
+  text-align: center;
+  padding-top:10em;
+
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 10em;
+
+}
